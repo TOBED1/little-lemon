@@ -1,0 +1,117 @@
+.footerLayout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+    grid-template-rows: auto 135px;
+    padding:0 80px;
+    width: 100%;
+    height: 542px;
+    background-color: var(--Brand-Color-1);
+    border-top-left-radius:64px;
+    border-top-right-radius:64px;
+    border-radius: 64px 64px 0px 0px;
+    box-shadow: -4px -8px 0px 0px #000, 4px -8px 0px 0px #000, 0px -8px 0px 0px #000;
+    box-sizing: border-box;
+}
+h4, p{
+    margin-top:0px;
+    margin-bottom: 0px;;
+}
+
+ul, li, a, p{
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Karla";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 0px;
+    margin-left:0px;
+    margin-top: 16px;;
+}
+h4{
+    color: var(--Brand-Color-2);
+    font-family: "Markazi Text";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    padding-top:55px;
+}
+
+.linkArea{
+    grid-column: 1/2;
+}
+
+.openContactArea{
+    grid-column: 2/4;
+}
+.opening > .detail{
+    display: flex;
+    justify-content: space-between;
+    margin-right:108;
+}
+
+.detail > .day{
+    margin-top: 16px;
+}
+.detail > .time{
+    margin-top: 16px;
+}
+ .time p{
+    text-align: right;
+ }
+
+
+.addressSocialArea{
+    grid-column: 4/5;
+}
+.addressSocialArea > h4{
+    margin-bottom: 16px;
+}
+.socialGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top:16px;
+}
+.addressSocialArea > .socialNetwork{
+    padding-top:115px;
+}
+.copyrightArea{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #ffffff;
+}
+
+.copyrightArea > ul > li{
+    display: inline;
+    justify-content: space-between;
+    width:524px;
+}
+
+.copyrightArea > ul > li > a{
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-right: 64px;;
+
+}
+
+.copyrightArea > p{
+    font-weight:300;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.iconStyle{
+    color:white;
+    width:40px;
+    height:60px;
+}

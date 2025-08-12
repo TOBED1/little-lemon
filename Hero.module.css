@@ -1,0 +1,78 @@
+.heroLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 813px;
+    background-image: url("../src/assets/imagess/jojobi.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding-top: 32px;
+    border-top: 8px solid #000000;
+    
+
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 916px;
+    height: 293px;
+}
+
+.heroText > p{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #EDEFEE;
+    text-align: center;
+    width: 280px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top:32px;
+}
+
+h1{
+    color: #F4CE14;
+    font-family: "Markazi Text";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0%;
+    text-align: center;
+}
+
+h2{
+    color: #EDEFEE;
+    font-family: "Markazi Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    text-align: center;
+}
+
+.reservationButton button{
+    justify-self: flex-end;
+    margin-bottom: 56px;
+    display: flex;
+    width: 289px;
+    height: 57px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px 16px 0px 0px;
+    border: 3px solid #333;
+    background-color: #EE9972;
+    cursor: pointer;
+}

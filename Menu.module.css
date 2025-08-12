@@ -1,0 +1,176 @@
+.menuLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1057px;
+    background-color: #F4CE14;
+}
+.ourMenuButton {
+    margin:0px;
+    width: 100%;
+}
+
+.ourMenuButton > button{
+    background-color: var(--Brand-Color-2);
+    border:none;
+    height:110px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: "Karla", sans-serif; ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 66.667% */
+    letter-spacing: 2.4px;
+    cursor: pointer;
+}
+
+.menuLayout >.popularMenuLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 947px;
+    background-color: #ffffff;
+    border-top-left-radius:64px;
+    border-top-right-radius:64px;
+    border-radius: 64px 64px 0px 0px;
+    box-shadow: -4px -8px 0px 0px #000, 4px -8px 0px 0px #000, 0px -8px 0px 0px #000;
+    padding-bottom: 56px;
+    box-sizing: border-box;
+}
+
+.menuText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top:55px;
+    width:461px;
+    height:272px;
+}
+
+.menuText > h2{
+    color: #000;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.menuText > p{
+    color: #333;
+    text-align: center;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top:0px;
+    padding-bottom: 56px;
+}
+
+.orderDishButton > button{
+    display: flex;
+    width: 289px;
+    height: 57px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 0px 0px 16px 16px;
+    border: 1px solid #333;
+    background: #EE9972;
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 0px 0px #000;
+    margin-top: 56px;
+    cursor: pointer;
+}
+
+.popularMenuCardGrid{
+    display: grid;
+    width:1064px;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(3, 169px);
+    border: 3px solid #000;
+    margin-left:189px;
+    margin-right:189px;
+}
+
+.menuCard {
+    display: flex;
+    align-items: center; /* Center content horizontally within the card */
+    width:532px;
+    justify-content: flex-start; /* Align content to the top of the card */
+    background-color: #ffffff; /* Example background for each card */
+    padding: 32px; /* Adjust padding inside each card to fit 169px height if necessary */
+    border: 3px solid #000; /* Border for individual cards as seen in your image */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.menuCardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.menuCardImageContainer{
+    width: 105px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.menuCardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 16px; /* Padding to separate text from image */
+    width: 347px;
+    margin-top: 0px;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.menuCardNamePrice{
+    display: flex;
+    height:28px;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+.menuCardNamePrice h3{
+color: #000;
+font-family: "Karla";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+
+
+
+.menuCardDescription {
+    font-family: "Karla";
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}

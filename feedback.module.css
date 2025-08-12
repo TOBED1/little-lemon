@@ -1,0 +1,239 @@
+.feedbackLayout{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-column-gap: 16px;
+    grid-template-rows: 201px 263px auto;
+    padding:0px 80px;
+    width: 100%;
+    height: 594px;
+    background-size: 100%;
+    background-position: center;
+    border-top-left-radius:64px;
+    border-top-right-radius:64px;
+    border-radius: 64px 64px 0px 0px;
+    box-shadow: -4px -8px 0px 0px #000, 4px -8px 0px 0px #000, 0px -8px 0px 0px #000;
+    margin-top:10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(255 255 255 / 0.5), rgb(255 255 255 / 0.5)),url("../images/FeedbackBG.jpg");
+}
+
+.feedbackLayout > h2{
+    grid-column: 1/-1;
+    color:var(--Brand-Color-2);
+    font-family: "Markazi Text";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 0px #000;
+}
+
+.feedbackArea{
+    grid-column: 1 /2;
+    grid-row: 2/3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;}
+
+.textArea > h3{
+    color: var(--Brand-Color-2);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 0px #000;
+    font-family: "Markazi Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textArea > p{
+    color: var(--Brand-Color-6);
+    text-align: center;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.reviewsLink > button{
+    display: flex;
+    width: 239px;
+    height: 57px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px 16px 0px 0px;
+    border: 3px solid #333;
+    background-color: #EE9972;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.reviewCards{
+    grid-column: 2 / span 3;
+    grid-row: 2/3;
+    overflow: hidden;
+    display: flex;
+}
+.feedbackCard{
+    display: flex;
+    width: 319px;
+    height:85%;
+    min-width: 240px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border:1px solid #000000;
+    background-color: #ffffff;
+}
+
+.feedbackHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 40 px;
+}
+
+.feedbackImageContainer{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.feedbackImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feedbackNameDate{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.feedbackNameDate p{
+    color: var(--Brand-Color-6);
+    font-family: "Karla";
+    font-size: 16;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+
+}
+.feedbackNameDate p:nth-child(2){
+    font-weight: 400;
+}
+.feedbackText{
+    margin-top:0px;
+}
+.quoteText{
+    color:#000000;
+    font-family: "Markazi Text";
+    font-size: 24;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 28.8px */
+    margin:0px;
+    padding-bottom: 8px;;
+}
+.feedbackDescription{
+    color: #333333;
+    font-family:"Karla";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin:0px;
+    padding:0px;
+    text-align: left;
+}
+
+.starIcon{
+    color: var(--Brand-Color-2);
+    width: 20px;
+    height: 20px;
+}
+
+.buttonsGroup{
+    grid-column: 2 / span 3;
+    grid-row: 3/4;
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 16px;
+}
+.BTN{
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+.leftrightBTN{
+    height: 48px;
+    width: 48px;
+    border: 1px solid var(--Brand-Color-6);
+    background-color:var(--Brand-Color-2);
+    border-radius: 50%;
+}
+
+.embla {
+grid-column: 2 / span 3;
+grid-row: 2/3;
+/*overflow: hidden;
+display: flex;
+/*position: relative; /* Needed for positioning navigation buttons if they are absolute */
+/*max-width: 100%; /* Or a specific width for your carousel */
+/*margin: 0 auto; /* Center the carousel */
+/*overflow: hidden; /* Hide overflowing slides */
+margin-bottom: 0px;
+}
+
+.emblaViewport {
+    height:100%;
+  overflow: hidden; /* Important for containing the slides */
+}
+
+.emblaContainer {
+  display: flex; /* Flexbox for horizontal arrangement of slides */
+  user-select: none; /* Prevents text selection on drag */
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+/* Counteracts default Embla slide margin for consistent spacing */
+  /* If you are using 'gap' on this container directly, adjust margin-left accordingly */
+}
+
+.emblaSlide {
+  /*min-width: 100%; /* Default: one slide takes full width of viewport */
+  /*padding-left: 10px; /* Space between slides (left padding) */
+  box-sizing: border-box; /* Include padding in slide's width */
+  position: relative; /* If you have absolute content inside slides */
+  flex: 0 0 auto; /* Ensure slides don't shrink or grow unexpectedly */
+  padding:0px;
+  margin:0px;
+  min-width: 240px;
+}
